@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Fonts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary bg-gradient fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Webfamily</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/spage/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Front-end</a></li>
+                            <hr>
+                            <ol>
+                                <li><a class="dropdown-item" href="/spage/html.html">HTML</a></li>
+                                <li><a class="dropdown-item" href="#">CSS</a></li>
+                                <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                                <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                            </ol>
+                            <hr>
+                            <li><a class="dropdown-item" href="#">Back-end</a></li>
+                            <hr>
+                            <ol>
+                                <li><a class="dropdown-item" href="#">ReactJS</a></li>
+                                <li><a class="dropdown-item" href="#">NodeJS</a></li>
+                                <li><a class="dropdown-item" href="#">ExpressJS</a></li>
+                                <li><a class="dropdown-item" href="#">MongoDB</a></li>
+                                <li><a class="dropdown-item" href="#">AngularJS</a></li>
+                            </ol>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-bg-light bg-gradient text-white bg-dark"
+                        type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="row mx-4 my-4">
+        <div class="col-md-8">
+            <br>
+            <br>
+            <div class="d-grid gap-2">
+                <button class="btn btn-info" type="button">HTML Fonts</button>
+            </div>
+            <br>
+            <nav class="blog-pagination" aria-label="Pagination">
+                <nav class="blog-pagination" aria-label="Pagination">
+                    <a class="btn btn-outline-primary" href="/spage/page4.html">&lt;--Back</a>
+                    <a class="btn btn-outline-primary float-end" href="/spage/page6.html" tabindex="-1"
+                        aria-disabled="true">Next--&gt;</a>
+                </nav>
+            </nav>
+            <article class="blog-post">
+                <br>
+                <p>In HTML documents various types of fonts are available.</p>
+                <hr>
+                <ul>
+                    <li>We are style a letter by using a tag or by declaring a font style property on the corosponding
+                        element which would be style.</li>
+                    <li>We can bold a letter by using the <span class="text-danger">&lt;b&gt;</span> tag.</li>
+                    <li>We can change a letter to italic by using the <span class="text-danger">&lt;i&gt;</span> tag.
+                    </li>
+                    <li>This are all pair tag, i.e. it has starting and ending tag.</li>
+                    <li class="text-dark">Example of Bold Tag:-</li>
+                </ul>
+
+                <div class="ms-5 text-info bg-dark">
+                    <h6>&lt;!DOCTYPE html&gt;</h6>
+                    <h6 class="ms-">&lt;html&gt;</h6>
+                    <h6>&lt;head&gt;</h6>
+                    <h6 class="ms-3">&lt;title&gt;Bold Text Example&lt;/title&gt;</h6>
+                    <h6>&lt;/head&gt;</h6>
+                    <h6>&lt;body&gt;</h6>
+                    <h6 class="ms-3">&lt;p&gt;&lt;b&gt;This sentence is written in bold.&lt;b&gt;&lt;/p&gt;</h6>
+                    <h6>&lt;/body&gt;</h6>
+                    <h6 class="ms-">&lt;/html&gt;</h6>
+                </div>
+                <div class="ms-5">
+                    <h5 class="text-success"><u>Output:-</u></h5>
+                    <img src="/img/opimg5.png" class="img-fluid" alt="Output">
+                </div>
+                <ul>
+                    <li class="text-dark">Example of Italic Tag:-</li>
+                </ul>
+                <div class="ms-5 text-info bg-dark">
+                    <h6>&lt;!DOCTYPE html&gt;</h6>
+                    <h6 class="ms-">&lt;html&gt;</h6>
+                    <h6>&lt;head&gt;</h6>
+                    <h6 class="ms-3">&lt;title&gt;Italic Text Example&lt;/title&gt;</h6>
+                    <h6>&lt;/head&gt;</h6>
+                    <h6>&lt;body&gt;</h6>
+                    <h6 class="ms-3">&lt;p&gt;&lt;i&gt;This sentence is written in italic letter.&lt;i&gt;&lt;/p&gt;</h6>
+                    <h6>&lt;/body&gt;</h6>
+                    <h6 class="ms-">&lt;/html&gt;</h6>
+                </div>
+                <div class="ms-5">
+                    <h5 class="text-success"><u>Output:-</u></h5>
+                    <img src="/img/opimg6.png" class="img-fluid" alt="Output">
+                </div>
+                <br>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-info" type="button">Using the style attribute</button>
+                </div>
+                <br>
+                <ul>
+                    <li>The style attribute is placed in the starting tag or element.</li>
+                    <li>The style attribute is used to add styles to an element of an HTML document, such as color, font, size etc.</li>
+                    <li>Syntax to write style attribute;<br><span class="text-primary">&lt;</span><span class="text-primary">tagname</span> <span class="text-danger">style</span>=<span class="text-success">"property:value;"</span> <span class="text-primary">&gt;</span></li>
+                    <li>We can also change the background color of the element.</li>
+                    <li>It is a CSS property.</li>
+                    <li>Example:-</li>
+                </ul>
+                <div class="ms-5 text-info bg-dark">
+                    <h6>&lt;!DOCTYPE html&gt;</h6>
+                    <h6 class="ms-">&lt;html&gt;</h6>
+                    <h6>&lt;head&gt;</h6>
+                    <h6 class="ms-3">&lt;title&gt;Fonts Example&lt;/title&gt;</h6>
+                    <h6>&lt;/head&gt;</h6>
+                    <h6>&lt;body&gt;</h6>
+                    <h6 class="ms-3">&lt;h3 <span class="text-danger">style</span>=<span class="text-white">"color: red;"</span>&gt;This is heading1&lt;/h3&gt;</h6>
+                    <h6 class="ms-3">&lt;h3 <span class="text-danger">style</span>=<span class="text-white">"color: blue;"</span>&gt;This is heading2&lt;/h3&gt;</h6>
+                    <h6>&lt;/body&gt;</h6>
+                    <h6 class="ms-">&lt;/html&gt;</h6>
+                </div>
+                <div class="ms-5">
+                    <h5 class="text-success"><u>Output:-</u></h5>
+                    <img src="/img/opimg7.png" class="img-fluid" alt="Output">
+                </div>
+                <h4>Details:~</h4>
+                <p class="fs-5 bg-warning">We are furthur study various types of CSS property like font-size, background-color and many more.</p>
+                <hr>
+                <br>
+                <nav class="blog-pagination" aria-label="Pagination">
+                    <nav class="blog-pagination" aria-label="Pagination">
+                        <a class="btn btn-outline-primary" href="/spage/page4.html">&lt;--Back</a>
+                        <a class="btn btn-outline-primary float-end" href="/spage/page5.html" tabindex="-1"
+                            aria-disabled="true">Next--&gt;</a>
+                    </nav>
+                </nav>
+
+        </div>
+
+        <div class="col-md-4">
+            <div class="p-4 mb-3 bg-light rounded">
+                <br>
+                <h4 class="font-italic">About</h4>
+                <p class="mb-0">In this course <em>you will learn all the things </em>from basic to advance for web
+                    development. We providing the best content for web development.</p>
+            </div>
+
+            <div class="p-4">
+                <h4 class="font-italic">Archives</h4>
+                <ol class="list-unstyled mb-0">
+                    <li><a href="/spage/html.html">Introduction</a></li>
+                    <li><a href="/spage/page1.html">Elements</a></li>
+                    <li><a href="/spage/page1.html">Types of tag/elements</a></li>
+                    <li><a href="/spage/page2.html">Headings</a></li>
+                    <li><a href="/spage/page3.html">Paragraph</a></li>
+                    <li><a href="/spage/page4.html">Horizental Line</a></li>
+                    <li><a href="/spage/page5.html">Fonts</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">List</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Attribute</a></li>
+                    <li><a href="#">Tables</a></li>
+                    <li><a href="#">Form</a></li>
+                </ol>
+            </div>
+
+            <div class="p-4">
+                <h4 class="font-italic">Elsewhere</h4>
+                <ol class="list-unstyled">
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Bootstrap</a></li>
+                </ol>
+            </div>
+            <div class="p-4">
+                <h4 class="font-italic">Connect with us</h4>
+                <ol class="list-unstyled">
+                    <li><a href="https://www.instagram.com/webfamily.in/?hl=en">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a
+                            href="https://l.instagram.com/?u=https%3A%2F%2Fconnectwithwebblog.blogspot.com%2F%3Fm%3D1&e=ATM1llrZgjaQ-5b64fawdKvMqfZsvIMD6m4NuZWZds0pcSOym1tqdDGHGaBy2gRN9ppJh90cnwdqn9Sfoco_FnMjfMQFD0n9bm1xm4Y&s=1">Our
+                            Blog</a></li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div class="container bg-black">
+        <footer class="pt-4 my-md-5 pt-md-5 border-top bg-black">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2" width="24" height="19" src="/img/logo1.jpg" alt="">
+                    <small class="d-block mb-3 text-muted">©2021 webfamily.in</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-primary" href="#">Cool stuff</a></li>
+                        <li><a class="link-primary" href="#">Sponsor</a></li>
+                        <li><a class="link-primary" href="#">Team</a></li>
+                        <li><a class="link-primary" href="#">Developers comunity</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-primary" href="#">Resource</a></li>
+                        <li><a class="link-primary" href="#">Patner</a></li>
+                        <li><a class="link-primary" href="#">Youtube channel</a></li>
+                        <li><a class="link-primary" href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-sucess" href="#">Comunity</a></li>
+                        <li><a class="link-sucess" href="#">Locations</a></li>
+                        <li><a class="link-sucess" href="#">Privacy</a></li>
+                        <li><a class="link-sucess" href="#">Towards The Owner Table</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
